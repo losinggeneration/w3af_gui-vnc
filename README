@@ -1,0 +1,10 @@
+w3af_gui via VNC
+
+build with:
+docker build -t w3af_gui-vnc .
+
+run with:
+docker run -d -P w3af_gui-vnc
+
+connect with:
+vnc <w3af_gui-vnc ip>:5901
